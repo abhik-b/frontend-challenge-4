@@ -15,6 +15,7 @@ body {
   color: hsl(217, 19%, 35%);
 }
 article {
+  max-width: 900px;
   width: 60%;
   height: 40%;
   border-radius: 12px;
@@ -33,6 +34,7 @@ article {
   height: 100%;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+  object-fit: cover;
 }
 .details {
   grid-area: details;
@@ -79,6 +81,7 @@ article {
   color: hsl(212, 23%, 69%);
 }
 .tooltip {
+  cursor: pointer;
   position: absolute;
   right: -8%;
   bottom: 28%;
@@ -109,6 +112,7 @@ article {
   box-shadow: 6px 6px 34px rgba(109, 127, 151, 0.3);
 }
 .share-btn {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -131,6 +135,7 @@ article {
 .ico img:hover {
   transform: translate(0, -10%) scale(1.2) !important;
 }
+
 .sharing {
   transform: translate(-100%, 40%);
 }
@@ -169,6 +174,9 @@ article {
     gap: 5px;
     padding: 15px;
     justify-content: center;
+  }
+  .details p {
+    padding-top: 5px;
   }
 
   .footer {
