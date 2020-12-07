@@ -156,7 +156,9 @@ article {
     grid-template-columns: 1fr;
     grid-template-rows: 200px auto;
     height: 70%;
-    width: 80%;
+    /* width: 80%; */
+    width: 55%;
+    min-width: 300px;
   }
   .image {
     border-top-left-radius: 12px;
